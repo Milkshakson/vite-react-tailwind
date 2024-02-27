@@ -1,6 +1,9 @@
 export default {
     mode: 'jit',
-    purge: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+    purge: [
+        './src/**/*.jsx',
+        './index.html',
+    ],
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {},
